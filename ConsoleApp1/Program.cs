@@ -114,6 +114,23 @@ else
 }
 
 
+
+
+
+Console.WriteLine("8 i like reading books");
+Console.WriteLine("a = yes b = no ");
+string answer8 = Console.ReadLine();
+if (answer8 == "a")
+{
+  points++;
+  Console.WriteLine("good");
+}
+else
+{
+  Console.WriteLine("wrong");
+}
+
+
 Console.WriteLine($"you got {points} points ");
 Console.WriteLine($"0-0 bad 1-2 ok 3-5 good 6-7 super");
 Console.WriteLine($"press any key to exit");
